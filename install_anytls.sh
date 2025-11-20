@@ -215,7 +215,7 @@ EOF
     echo -e "-------------------------------------"
     
     # 生成链接
-    LINK="anytls://${PASSWORD}@${SERVER_IP}:${PORT}/?insecure=1&allowInsecure=1"
+    LINK="anytls://${PASSWORD}@${SERVER_IP}:${PORT}/?insecure=1"
     
     echo -e "\n${BLUE}〓 NekoBox / 客户端 连接信息 〓${PLAIN}"
     echo -e "${YELLOW}${LINK}${PLAIN}"
