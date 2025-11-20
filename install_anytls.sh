@@ -82,7 +82,7 @@ get_ip() {
 
 # 生成随机端口
 function get_random_port() {
-    shuf -i 2000-65000 -n 1
+    shuf -i 20000-65000 -n 1
 }
 
 # 生成随机密码
